@@ -1,0 +1,21 @@
+{
+  "name": "gutensee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fonticonpicker/react-fonticonpicker": "^1.2.0",
+    "@monaco-editor/react": "^4.6.0",
+    "@wordpress/icons": "^10.7.0",
+    "@wordpress/scripts": "^25.0.0",
+    "classnames": "^2.5.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1"
+  }
+}

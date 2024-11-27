@@ -1,0 +1,1465 @@
+/* Menu Section css---------------------------------------------------------------------------------------------------- */
+@media (max-width: 1100px) {
+     .dropdown-menu {
+        border-top: none;
+        border-bottom: none;
+        box-shadow: none;
+        border: none;
+    }
+
+    .gutensee-classic .gutensee-nav .nav .open>a,
+    .gutensee-classic .gutensee-nav .nav .open>a:hover,
+    .gutensee-classic .gutensee-nav .nav .open>a:focus {
+        border-color: #106eea;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .gutensee-classic .gutensee-nav>li>a:hover,
+    .gutensee-classic .gutensee-nav>li>a:focus {
+        background-color: transparent;
+        color: #106eea;
+    }
+
+    .gutensee-classic .gutensee-nav>.open>a,
+    .gutensee-classic .gutensee-nav>.open>a:hover,
+    .gutensee-classic .gutensee-nav>.open>a:focus {
+        background-color: transparent;
+        color: #106eea;
+    }
+
+    .gutensee-classic .gutensee-nav>.active>a,
+    .gutensee-classic .gutensee-nav>.active>a:hover,
+    .gutensee-classic .gutensee-nav>.active>a:focus {
+        background-color: transparent;
+        color: #106eea;
+        border-top: none;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 1100px) {
+
+    .gutensee .gutensee-nav>.active>a,
+    .gutensee .gutensee-nav>.active>a:hover,
+    .gutensee .gutensee-nav>.active>a:focus {
+        color: #106eea;
+        background-color: transparent;
+    }
+
+    .gutensee .gutensee-nav>.open>a,
+    .gutensee .gutensee-nav>.open>a:hover,
+    .gutensee .gutensee-nav>.open>a:focus {
+        background-color: transparent;
+        color: #106eea;
+        border-bottom: 1px dotted #4c4a5f;
+    }
+}
+
+/*===================================================================================*/
+/*  gutensee
+        /*===================================================================================*/
+
+.gutensee-block {
+    /* background-color: #fff; */
+    border: 0;
+    border-radius: 0;
+    z-index: 1000;
+    /* font-size: 1.000rem; */
+    transition: background, padding 0.4s ease-in-out 0s;
+    margin: 0;
+/*    min-height: 90px;*/
+}
+
+.gutensee a {
+    transition: color 0.125s ease-in-out 0s;
+}
+
+.gutensee-block .gutensee-brand {
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 2.000rem;
+    line-height: 1.5;
+    color: #1b1b1b;
+    margin-left: 0px;
+    height: auto;
+    padding: 15px 10px 15px 0px;
+}
+
+.gutensee-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.site-branding-text {
+    float: left;
+    margin: 0;
+    padding: 13px 50px 13px 0;
+}
+
+.site-title {
+    height: auto;
+    font-size: 1.875rem;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 0;
+    padding: 0px;
+}
+
+.site-description {
+    padding: 0;
+    margin: 0;
+}
+
+.gutensee-block .gutensee-nav li {
+    margin: 0px;
+    padding: 0;
+}
+
+.gutensee-block .gutensee-nav li>a.nav-link {
+    position: relative;
+    color: #000000;
+    font-weight: 600;
+    font-size: 0.875rem;
+/*    padding: 35px 17px;*/
+    transition: all 0.3s ease-in-out 0s;
+    text-transform: uppercase;
+}
+
+/*Dropdown Menu*/
+.gutensee-block .dropdown-menu {
+    border-radius: 0;
+    padding: 1px;
+    min-width: 200px;
+/*    background-color: #ffffff;*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+}
+
+.gutensee-block .dropdown-menu>li {
+    padding: 0 10px;
+    margin: 0;
+}
+
+.gutensee-block .dropdown-menu>li>a.nav-link {
+    color: #777777;
+    border-bottom: 1px solid #0000001a;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 12px 15px;
+    transition: all 0.2s ease-in-out 0s;
+    letter-spacing: 0.7px;
+    white-space: normal;
+}
+
+.gutensee-block .dropdown-menu>li>a.nav-link:hover,
+.gutensee-block .dropdown-menu>li>a.nav-link:focus {
+    padding: 12px 15px 12px 20px;
+}
+
+.gutensee-block .dropdown-menu>li>a.nav-link :hover,
+.gutensee-block .dropdown-menu>li>a.nav-link :focus {
+    color: #777777;
+    background-color: transparent;
+    border-bottom: 1px solid #004EC2;
+}
+
+.gutensee-block .dropdown-menu .dropdown-menu {
+    left: 100%;
+    right: auto;
+    top: 0;
+    margin-top: 0;
+}
+
+.gutensee-block.gutensee-block .dropdown-menu.left-side .dropdown-menu {
+    border: 0;
+    right: 100%;
+    left: auto;
+}
+
+.gutensee-block .dropdown-menu .open>a.nav-link,
+.gutensee-block .dropdown-menu .open>a.nav-link:focus,
+.gutensee-block .dropdown-menu .open>a.nav-link:hover {
+    background: #282737;
+    color: #fff;
+}
+
+.nav .open>a.nav-link ,
+.nav .open>a.nav-link :hover,
+.nav .open>a.nav-link :focus {
+    border-color: #363544;
+}
+
+.gutensee-block .dropdown-menu>.active>a.nav-link ,
+.gutensee-block .dropdown-menu>.active>a.nav-link :hover,
+.gutensee-block .dropdown-menu>.active>a.nav-link :focus {
+    color: #777777;
+    background-color: transparent;
+}
+
+.gutensee-block .gutensee-toggle .icon-bar {
+    background: #121213;
+    width: 40px;
+    height: 2px;
+}
+
+.gutensee-toggle .icon-bar+.icon-bar {
+    margin-top: 8px;
+}
+
+
+/*--------------------------------------------------------------
+                gutensee Overlapped & Stiky Header Css
+        --------------------------------------------------------------*/
+
+/* body.page .header-overlapped~#slider-carousel,
+body.woocommerce-page .header-overlapped~#slider-carousel {
+    margin: -70px 0 70px;
+}
+
+body.page-template.page-template-template-business .header-overlapped~#slider-carousel,
+body.blog .header-overlapped,
+body.page-template.page-template-template-overlapped .header-overlapped~#slider-carousel,
+body.page-template.page-template-template-overlaped .header-overlapped~#slider-carousel {
+    margin: 0px;
+}
+
+body.home.blog .header-overlapped,
+body.page-template-template-business .header-overlapped,
+body.page-template-template-overlaped .header-overlapped {
+    background-color: transparent;
+    margin: 0;
+    position: relative;
+    z-index: 99;
+}
+
+.header-overlapped {
+    margin: 0 0 70px;
+}
+
+.header-overlapped .page-title-section {
+    background-color: transparent;
+}
+
+.gutensee-overlapped {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width:500px) {
+
+    body.home.blog .gutensee-overlapped,
+    body.page-template-template-business .gutensee-overlapped,
+    body.page-template-template-overlaped .gutensee-overlapped {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        z-index: 20;
+    }
+}
+
+.gutensee-overlapped {
+    min-height: 90px;
+    position: relative;
+}
+
+.header-overlapped .page-seperate {
+    display: none;
+}
+
+.gutensee-overlapped .gutensee-brand {
+    padding: 20px 0px;
+    color: #ffffff;
+}
+
+.gutensee-overlapped .gutensee-brand:hover,
+.gutensee-overlapped .gutensee-brand:focus {
+    color: #ffffff;
+}
+
+.gutensee-overlapped .site-title a,
+.gutensee-overlapped .site-title a:hover,
+.gutensee-overlapped .site-title a:focus,
+.gutensee-overlapped .site-description {
+    color: #fff;
+}
+
+.gutensee-overlapped .gutensee-nav>li>a {
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    padding: 34px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.gutensee-overlapped .gutensee-nav>li>a:hover,
+.gutensee-overlapped .gutensee-nav>li>a:focus {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.gutensee-overlapped .gutensee-nav>.open>a,
+.gutensee-overlapped .gutensee-nav>.open>a:hover,
+.gutensee-overlapped .gutensee-nav>.open>a:focus {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+.gutensee-overlapped .gutensee-nav>.active>a,
+.gutensee-overlapped .gutensee-nav>.active>a:hover,
+.gutensee-overlapped .gutensee-nav>.active>a:focus {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.gutensee-overlapped .cart-header {
+    width: 25px;
+    height: 25px;
+    margin: 33px 7px 32px 20px;
+}
+
+.gutensee-overlapped .cart-header>a.cart-icon {
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+
+.gutensee-overlapped .cart-header>a.cart-icon {
+    width: auto;
+    height: auto;
+    border: 0 none;
+    padding: 0;
+}
+
+.gutensee-overlapped .cart-header>a .cart-total {
+    right: -11px;
+    top: -4px;
+} */
+
+/*Header Stiky Menu*/
+/* .stiky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #21202e;
+    transition: all 0.3s ease;
+    min-height: 70px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1)
+}
+
+.gutensee-overlapped.stiky-header .gutensee-brand {
+    padding: 10px 0px;
+}
+
+.gutensee-overlapped.stiky-header .site-branding-text {
+    padding: 3px 50px 3px 15px;
+}
+
+.gutensee-overlapped.stiky-header .gutensee-nav>li>a {
+    padding: 24px 10px;
+}
+
+.gutensee-overlapped.stiky-header .cart-header {
+    margin: 23px 7px 22px 20px;
+} */
+
+/*--------------------------------------------------------------
+                gutensee Classic Header Css
+        --------------------------------------------------------------*/
+
+/* .mobile-header {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .desktop-header {
+        display: none;
+    }
+
+    #wrapper .mobile-header {
+        display: block;
+    }
+
+    .mobile-header .gutensee-classic {
+        background-color: #fff;
+    }
+}
+
+.gutensee-classic {
+    z-index: 20;
+    background-color: #21202e;
+}
+
+.gutensee-classic {
+    min-height: 60px;
+}
+
+.gutensee-classic .gutensee-nav {
+    float: none;
+}
+
+.gutensee-classic .gutensee-nav>li>a {
+    color: #fff;
+    padding: 20px 25px;
+}
+
+.gutensee-classic .gutensee-collapse {
+    border-top: 1px solid #434158;
+}
+
+.gutensee-classic .cart-header {
+    width: 25px;
+    height: 25px;
+    margin: 18px 10px 17px 20px;
+}
+
+.gutensee-classic .cart-header>a.cart-icon {
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+
+.gutensee-classic .cart-header>a.cart-icon {
+    width: auto;
+    height: auto;
+    border: 0 none;
+    padding: 0;
+}
+
+.gutensee-classic .cart-header>a .cart-total {
+    right: -11px;
+    top: -4px;
+}
+
+.header-widget-info .gutensee-brand {
+    height: auto;
+    padding: 15px 0px;
+}
+
+@media (min-width: 1100px) and (max-width: 1101px) { */
+
+    /*gutensee Classic*/
+    /* .gutensee-classic .gutensee-nav>li>a {
+        padding: 20px 25px;
+    }
+
+    .gutensee-classic .gutensee-nav .cart-header {
+        margin: 18px 12px 18px 20px;
+    }
+} */
+
+/*--------------------------------------------------------------
+                Menubar - Media Queries
+        --------------------------------------------------------------*/
+
+@media (min-width: 1100px) {
+
+    .gutensee-collapse.collapse {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+        visibility: visible;
+        height: auto;
+    }
+
+    .gutensee-nav {
+        margin: 0;
+    }
+
+    .gutensee-block .gutensee-nav>li {
+        float: left;
+    }
+
+    .gutensee-header {
+        float: left;
+    }
+
+    .gutensee-toggle {
+        display: none;
+    }
+
+    .gutensee-block .gutensee-nav>li.menu-item-type-custom i {
+        padding-left: 6px;
+        line-height: 1;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* gutensee Classic */
+    .gutensee-classic .gutensee-nav {
+        float: none;
+    }
+}
+
+@media (min-width: 1100px) {
+    .gutensee-transparent {
+        background: transparent;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin: 0;
+    }
+
+    .gutensee-block .open>.dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .gutensee-right .dropdown-menu {
+        right: auto;
+        left: 0;
+    }
+
+    .gutensee-classic .gutensee-collapse {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media (min-width: 1101px) {
+
+    /* .gutensee-block .container-fluid {
+        width: 970px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    } */
+
+
+    .gutensee-block .dropdown-menu>li>a {
+        padding: 12px 15px;
+    }
+
+    .gutensee-block .dropdown-menu>li>a.nav-link:hover,
+    .gutensee-block .dropdown-menu>li>a.nav-link:focus {
+        padding: 12px 15px 12px 20px;
+    }
+
+    /* .gutensee-block .open .dropdown-menu {
+        background-color: #ffffff;
+    } */
+
+    .gutensee-block .dropdown-menu {
+        position: absolute;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .gutensee-block .dropdown-menu>li>a.nav-link i {
+        float: right;
+    }
+
+}
+/* 
+@media (min-width: 1200px) {
+
+    .gutensee-block .container-fluid {
+        width: 1170px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+} */
+
+@media (min-width: 1200px) {
+    .gutensee-block .container-fluid.fullwidth {
+        width: auto;
+    }
+}
+
+
+/** BELOW MAX-WIDTH MEDIA QUERIES **/
+
+@media (max-width: 1100px) {
+
+    /* gutensee */
+    .gutensee-block .gutensee-nav {
+        letter-spacing: 0px;
+        margin-top: 1px;
+        margin-bottom: 0;
+    }
+
+    .gutensee-block .gutensee-nav li {
+        margin: 0 15px;
+        padding: 0;
+    }
+
+    .gutensee-block .gutensee-nav li>a.nav-link {
+        color: #777777;
+        padding: 12px 0px 12px 0px;
+    }
+
+    .gutensee-block .gutensee-nav>li>a.nav-link:focus,
+    .gutensee-block .gutensee-nav>li>a.nav-link:hover {
+        background: transparent;
+        color: #fff;
+    }
+
+    .gutensee-block .gutensee-nav li>a.search-icon-sbp {
+        padding-top: 15px;
+    }
+
+    .cart-header {
+        height: 25px
+    }
+
+    .gutensee-block .dropdown-menu>li>a.nav-link {
+        display: block;
+        clear: both;
+        font-weight: normal;
+    }
+
+    .gutensee-block .dropdown-menu.search-panel {
+        top: 53px;
+    }
+
+    .gutensee-block .dropdown-menu>li>a.nav-link:hover,
+    .gutensee-block .dropdown-menu>li>a.nav-link:focus {
+        background-color: #ffffff;
+        color: #777777;
+        padding: 12px 0px 12px 0px;
+    }
+
+    .gutensee-block .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .gutensee-block .open .dropdown-menu>li>a.nav-link {
+        line-height: 20px;
+    }
+
+    .gutensee-block .open .dropdown-menu .dropdown-header,
+    .gutensee-block .open .dropdown-menu>li>a.nav-link {
+        padding: 12px 0px;
+    }
+
+    .gutensee-block .open .dropdown-menu .dropdown-menu .dropdown-header,
+    .gutensee-block .open .dropdown-menu .dropdown-menu>li>a.nav-link {
+        padding: 12px 0px;
+    }
+
+    .gutensee-block li a.nav-link,
+    .gutensee-block .dropdown-search {
+        border-bottom: 1px solid #0000001a;
+    }
+
+    .gutensee-header {
+        padding: 0px 15px;
+        float: none;
+    }
+
+    .gutensee-block .gutensee-brand {
+        padding: 20px 50px 20px 0px;
+    }
+
+    .gutensee-toggle {
+        display: block;
+        margin: 24px 15px 24px 0;
+        padding: 9px 12px;
+        float: right;
+    }
+
+    .gutensee-block.gutensee5.hp-hc .gutensee-toggle {
+        float: none;
+        margin: 15px auto;
+    }
+
+    .site-branding-text {
+        padding: 17px 50px 17px 15px;
+    }
+
+    .gutensee-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .gutensee-collapse.collapse {
+        display: none !important;
+    }
+
+    .gutensee-block .gutensee-nav {
+        background-color: #ffffff;
+        float: none !important;
+        margin: 0px
+    }
+
+    .gutensee-block .gutensee-nav>li {
+        float: none;
+    }
+
+    .gutensee-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .collapsing {
+        overflow: hidden !important;
+    }
+
+    .gutensee-collapse,
+    .gutensee-collapse.collapse.in {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .gutensee-block.hp-hc .gutensee-nav>li {
+        float: none;
+        display: block;
+    }
+
+    .gutensee-block.hp-hc .gutensee-nav {
+        text-align: left;
+    }
+
+    .gutensee5 .gutensee-nav>.active>a:after {
+        content: none;
+    }
+
+
+    /*gutensee Overlapped*/
+    .gutensee-overlapped.stiky-header .gutensee-toggle {
+        margin: 13px 15px 13px 0;
+    }
+
+    .gutensee-overlapped.stiky-header .gutensee-collapse.in {
+        max-height: 500px;
+        padding-right: 0px;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .gutensee-block .dropdown a>i.fa {
+        font-size: 0.938rem;
+        position: absolute;
+        right: 0;
+        margin-top: -6px;
+        top: 50%;
+        padding-left: 7px;
+    }
+
+    /*gutensee Overlapped*/
+    .gutensee-overlapped.stiky-header .gutensee-brand {
+        padding: 20px 0px;
+    }
+
+    .gutensee-overlapped.stiky-header .gutensee-nav>li>a {
+        padding: 12px 15px;
+    }
+
+    .gutensee-overlapped .gutensee-nav>li>a:hover,
+    .gutensee-overlapped .gutensee-nav>li>a:focus {
+        border-bottom: 1px dotted #4c4a5f;
+    }
+
+    .gutensee-overlapped .gutensee-nav>.active>a,
+    .gutensee-overlapped .gutensee-nav>.active>a:hover,
+    .gutensee-overlapped .gutensee-nav>.active>a:focus {
+        border-bottom: 1px dotted #4c4a5f;
+    }
+
+    .gutensee-overlapped .gutensee-toggle {
+        color: #fff;
+    }
+
+    .gutensee-overlapped .gutensee-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .gutensee-header {
+        padding: 0 15px;
+    }
+
+    .gutensee-collapse,
+    .gutensee-collapse.collapse.in {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .gutensee-block .gutensee-brand {
+        padding: 20px 50px 20px 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .gutensee-block .gutensee-brand {
+        float: none;
+        display: block;
+        text-align: center;
+        padding: 25px 15px 5px 15px;
+    }
+
+    .gutensee-block .gutensee-brand img {
+        margin: 0 auto;
+    }
+
+    .site-branding-text {
+        padding: 17px 15px 17px 15px;
+        float: none;
+        text-align: center;
+    }
+
+    .gutensee-toggle {
+        float: none;
+/*        margin: 10px auto 25px;*/
+    }
+
+    /*gutensee Overlapped*/
+    .gutensee-overlapped {
+        position: relative;
+        background-color: #21202e;
+        border-bottom: 1px solid #4c4a5f;
+    }
+
+    .gutensee-overlapped .gutensee-collapse.in {
+        bottom: 0px;
+    }
+
+    .gutensee-overlapped .gutensee-collapse {
+        bottom: 0px;
+    }
+
+    .gutensee-overlapped.stiky-header .gutensee-toggle {
+        float: none;
+        margin: 10px auto 25px;
+    }
+
+    .gutensee-overlapped.stiky-header .site-branding-text {
+        padding: 17px 15px 17px 15px;
+        float: none;
+        text-align: center;
+    }
+
+    body.blog .gutensee-overlapped {
+        position: relative;
+    }
+
+    .gutensee-header .custom-logo-link-url {
+        display: block;
+        text-align: center;
+        padding: 5px 10px 10px 10px;
+        ;
+    }
+
+}
+
+/*===================================================================================*/
+/*  CART ICON
+        /*===================================================================================*/
+.cart-header {
+    width: 30px;
+    height: 30px;
+    line-height: 1.6;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    float: left;
+    margin: 30px 8px 25px 5px;
+    border-left: 1px solid #000;
+    display: inline-block;
+    padding-left: 12px;
+}
+
+.gutensee-block .gutensee-nav li>a.search-icon-sbp {
+    padding-right: 12px;
+    display: inline-block;
+    /* float: left; */
+}
+
+.cart-header>a.cart-icon {
+    -wekbit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    display: inline-block;
+    font-size: 1.125rem;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.cart-header>a .cart-total {
+    font-family: 'Open Sans', Sans-serif;
+    font-size: 0.688rem;
+    line-height: 1.7;
+    color: #ffffff;
+    font-weight: 600;
+    position: absolute;
+    right: -12px;
+    top: -7px;
+    padding: 1px;
+    width: 1.225rem;
+    height: 1.225rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -wekbit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+@media (min-width: 100px) and (max-width: 1100px) {
+    .cart-header {
+        float: left;
+        margin: 8px;
+        display: inline-block;
+    }
+
+    .cart-header>a.cart-icon {
+        color: #777777;
+    }
+}
+
+
+/*-------------------------------------------------------------------------
+        /* gutensee - Logo Right Align with Menu
+        -------------------------------------------------------------------------*/
+
+@media (min-width: 1101px) {
+    .gutensee-header.align-right {
+        float: right;
+    }
+
+    .gutensee-header.align-right~.gutensee-collapse {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    .gutensee-header.align-right .gutensee-toggle {
+        float: left;
+        margin-left: 15px;
+    }
+
+}
+
+.gutensee-brand.align-right,
+.site-branding-text.align-right {
+    float: right;
+    margin-right: 0px;
+    margin-left: 50px;
+    padding-right: 0px;
+}
+
+@media (max-width: 768px) {
+
+    .gutensee-brand.align-right,
+    .site-branding-text.align-right {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .gutensee-brand.align-right {
+        float: none;
+        padding: 10px 15px 30px 15px;
+    }
+
+    .site-branding-text.align-right {
+        float: none;
+        padding: 10px 15px 30px 15px;
+        margin-left: 0;
+    }
+
+    .gutensee-header.align-right .gutensee-toggle {
+        float: none;
+        margin: 30px auto 10px;
+    }
+}
+
+.p-lef-right-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*-------------------------------------------------------------------------
+        /* gutensee - Logo Center Align with Menu
+        -------------------------------------------------------------------------*/
+
+.mobile-header {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .desktop-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+}
+
+.gutensee-center-fullwidth .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+}
+
+@media (min-width: 1101px) {
+    .gutensee-center-fullwidth .logo-area {
+        margin: 0 auto;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .gutensee-brand.align-center,
+    .site-branding-text.align-center {
+        float: none;
+        padding: 0px;
+        display: inline-block;
+    }
+
+    .gutensee-center-fullwidth .gutensee-nav {
+        float: none;
+        margin: 0 auto;
+        display: table;
+    }
+}
+
+.gutensee-center-fullwidth .gutensee-collapse {
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.gutensee-center-fullwidth .gutensee-nav>.active>a,
+.gutensee-center-fullwidth .gutensee-nav>.active>a:hover,
+.gutensee-center-fullwidth .gutensee-nav>.active>a:focus {
+    color: #106eea;
+    background-color: transparent;
+}
+
+.gutensee-center-fullwidth .gutensee-nav li>a {
+    padding: 20px;
+}
+
+.gutensee-center-fullwidth .dropdown-menu>li>a {
+    padding: 12px 15px;
+}
+
+.gutensee-center-fullwidth .sp-search-area {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 1100px) {
+    .gutensee-nav ul.dropdown-menu .fa-caret-down:before {
+        content: "\f0da";
+    }
+}
+
+@media (min-width: 1101px) {
+    .gutensee-blockgutensee-custom .dropdown-menu>li>a i {
+        padding-top: 2px;
+    }
+}
+
+</style><style>body.boxed {
+    background-image: url("#");
+}
+
+</style><noscript><style>.woocommerce-product-gallery {
+    opacity: 1;
+}
+
+</style></noscript><style type="text/css" id="header-css">.site-title,
+.site-description {
+    clip: rect(1px 1px 1px 1px);
+    /* IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+</style><style type="text/css" id="wp-custom-css">.page-template-template-center .index-logo.index5 .col-xs-12,
+.page-template-template-center .index-logo.index5 .col-md-4,
+.page-template-template-center .index-logo.index5 .col-sm-5 {
+    margin: 0 auto;
+    float: none;
+}
+
+.gutensee-block .dropdown-menu>li {
+    padding: 0 5px;
+}
+
+.dark_layout {
+    background-color: #222222;
+    box-shadow: 0 2px 0 0 #000000;
+    color: #ffffff;
+    border-radius: 2px;
+    border: 0px none;
+    display: inline-block;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    margin: 5px 2px;
+    padding: 5px 13px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+}
+
+.dark_layout:hover {
+    color: #fff;
+}
+
+.gutensee.gutensee-block .header-button a {
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.6;
+    padding: 0.75rem 1.3rem;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    margin: 5px 17px;
+    background-color: #ff5e14;
+}
+}
+
+.header-sidebar {
+    /*  background-color: rgba(255 ,255, 255,0.10);*/
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+@media (min-width: 768px) {
+    .gutensee-nav {
+        float: left;
+        margin: 0;
+    }
+
+    .gutensee-nav>li {
+        float: left;
+    }
+}
+
+.gutensee-block ul {
+    list-style: none;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.dropup,
+.dropdown {
+    position: relative;
+}
+
+.clrfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.clrfix:before,
+.clrfix:after,
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,
+.gutensee-container:before,
+.gutensee-container:after,
+.gutensee-container-fluid:before,
+.gutensee-container-fluid:after,
+.row:before,
+.row:after,
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after,
+.btn-toolbar:before,
+.btn-toolbar:after,
+.btn-group-vertical>.btn-group:before,
+.btn-group-vertical>.btn-group:after,
+.nav:before,
+.nav:after,
+.gutensee:before,
+.gutensee:after,
+.gutensee-header:before,
+.gutensee-header:after,
+.gutensee-collapse:before,
+.gutensee-collapse:after,
+.pager:before,
+.pager:after,
+.panel-body:before,
+.panel-body:after,
+.modal-footer:before,
+.modal-footer:after {
+    display: table;
+    content: " ";
+}
+
+.clrfix:after,
+.dl-horizontal dd:after,
+.gutensee-container:after,
+.gutensee-container-fluid:after,
+.row:after,
+.form-horizontal .form-group:after,
+.btn-toolbar:after,
+.btn-group-vertical>.btn-group:after,
+.nav:after,
+.gutensee:after,
+.gutensee-header:after,
+.gutensee-collapse:after,
+.pager:after,
+.panel-body:after,
+.modal-footer:after {
+    clear: both;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+}
+
+.dropdown-menu {
+    margin: 2px 0 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.gutensee-toggle {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.gutensee-block.trsprnt-menu {
+    background-color: transparent;
+    border-color: transparent;
+    position: relative;
+/*    width: 100%;*/
+    z-index: 999;
+}
+.gutensee-block.trsprnt-menu:has(.gutensee-collapse.collapse.in) {
+    z-index: 99999;
+}
+.header-sidebar .widget .head-contact-info.time-info li {
+    border-right: none;
+}
+
+.gutensee-block .dropdown-menu.search-panel {
+    top: 75px;
+    left: auto;
+    right: 0px;
+    padding: 12px 3px 12px;
+    width: 315px;
+    background-color: #21202e;
+    border-top: 2px solid #ff5e14;
+    border-bottom: 2px solid #ff5e14;
+}
+
+.gutensee-block .dropdown-menu.search-panel .search-form {
+    width: 100%;
+    position: relative;
+}
+
+.gutensee-block .dropdown-menu.search-panel .search-form input[type="search"] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 1.5rem;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 0.4375rem 5.625rem 0.4375rem 0.4375rem;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-size: large;
+    border-radius: unset;
+}
+
+body.gutensee-block .dropdown-menu.search-panel .search-form input[type="submit"] {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    font-weight: 600;
+    height: 40px;
+    left: auto;
+    right: 0;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    line-height: 0;
+    top: 0;
+    padding: 12px ;
+    background-color: #ff5e14;
+    border-color: #ff5e14;
+    margin: 0;
+    border-radius: unset;
+}
+
+.gutensee-block .dropdown-menu.search-panel .search-form input {margin: 0}
+
+
+.custom-logo-link-url {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 10px 10px 10px;
+}
+
+/*.custom-logo-link-url .site-title a {
+    color: #fff;
+}*/
+
+.custom-logo-link-url .site-description {
+    color: #c5c5c5;
+}
+
+@media (max-width: 767px) {
+    .header-sidebar .widget .custom-social-icons {
+        display: block;
+        padding: 0 0 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .gutensee-block .dropdown-menu.search-panel {
+        position: absolute;
+        left: 0;
+        width: 250px;
+    }
+
+    .gutensee-block .dropdown-menu.search-panel {
+        top: 50px;
+    }
+
+    .post .entry-content .more-link {
+        float: none;
+    }
+}
+
+.footer-meta.entry-meta .tag-links a {
+    background: #e5e5e5;
+    border-radius: 50px;
+    padding: 0.25rem 0.854rem;
+}
+
+/* ---------------------------------- */
+.gutensee-block .dropdown li a.nav-link:not(.search-icon-sbp) i{
+    color: currentColor;
+    font-weight: 900;
+    margin-left: 4px;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translatey(-50%);
+}
+@media (max-width: 1100px){
+    .gutensee-block li a.nav-link:not(.search-icon-sbp) i{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    border: 1px solid #0000005c;
+    border-radius: 4px;
+    color: currentColor;
+    padding: 1px 6px;
+    transform: translatey(-50%);
+    font-weight: 900;
+    font-size: 14px;
+}
+}
+.gutensee-block li a.nav-link:not(.search-icon-sbp) i {
+    font-size: 14px;
+    padding-left: 6px;
+}
+
+
+.gutensee.gutensee-block .header-button a {
+    display: inline-block;
+}
+
+.gutensee-block .blog-lg-area-left,
+.gutensee-block .post .entry-content{
+    overflow: initial;
+}
+
+body.gutensee-block .blog .post{
+    transition: unset;
+    transform: unset;
+}
+
+body.gutensee-block .blog-detail-section {
+    overflow: visible;
+    display: flex;
+}
+
+body.gutensee-block .blog-detail-section .blog-post-title {
+    overflow: unset;
+}
+
+
+body.gutensee-block .blog-section .post .entry-content {
+    overflow: initial;
+}
+
+body.gutensee-block .site-content .blog .post-content{
+    overflow: initial;
+}
+
+/* body.gutensee-block .blog-left{
+    overflow: initial;
+} */
+
+body.gutensee-block .dropdown-submenu > a:after {
+    content: unset;
+}

@@ -1,0 +1,698 @@
+# Gutensee
+# Copyright 2024 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Gutensee WordPress Pot "
+"v1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2024-11-19 11:12+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Bookmarks: \n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:3
+msgid "None"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:4
+msgid "Bounce"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:5
+msgid "Flash"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:6
+msgid "Pulse"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:7
+msgid "RubberBand"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:8
+msgid "Shake"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:9
+msgid "Swing"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:10
+msgid "Tada"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:11
+msgid "Wobble"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:12
+msgid "Jello"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:13
+msgid "BounceIn"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:14
+msgid "BounceInDown"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:15
+msgid "BounceInLeft"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:16
+msgid "BounceInRight"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:17
+msgid "BounceInUp"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:18
+msgid "FadeIn"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:19
+msgid "FadeInDown"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:20
+msgid "FadeInDownBig"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:21
+msgid "FadeInLeft"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:22
+msgid "FadeInLeftBig"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:23
+msgid "FadeInRight"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:24
+msgid "FadeInRightBig"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:25
+msgid "FadeInUp"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:26
+msgid "FadeInUpBig"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:27
+msgid "Flip"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:28
+msgid "FlipInX"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:29
+msgid "FlipInY"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:30
+msgid "LightSpeedIn"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:31
+msgid "RollIn"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:32
+msgid "RotateIn"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:33
+msgid "RotateInDownLeft"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:34
+msgid "RotateInDownRight"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:35
+msgid "RotateInUpLeft"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:36
+msgid "RotateInUpRight"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:37
+msgid "SlideInDown"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:38
+msgid "SlideInLeft"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:39
+msgid "SlideInRight"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:40
+msgid "ZoomIn"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:41
+msgid "ZoomInDown"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:42
+msgid "ZoomInLeft"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:43
+msgid "ZoomInRight"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:44
+msgid "ZoomInUp"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:47
+msgid "Normal"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:48
+msgid "Slow"
+msgstr ""
+
+#: build/index.js:1
+#: src/blocks/lib/animationslist.js:49
+msgid "Fast"
+msgstr ""
+
+#: gutensee.php:67
+msgid "Gutensee"
+msgstr ""
+
+#: inc/blocks/latest-post.php:190
+msgid "no title"
+msgstr ""
+
+#: inc/blocks/latest-post.php:294
+#: inc/blocks/latest-post.php:457
+#: inc/blocks/latest-post.php:623
+#: inc/blocks/latest-post.php:786
+#: inc/blocks/post-query.php:276
+#: inc/blocks/post-query.php:439
+#: inc/blocks/post-query.php:601
+#: inc/blocks/post-query.php:764
+#, php-format
+msgid ""
+"View all posts in %s"
+msgstr ""
+
+#: inc/blocks/latest-post.php:335
+#: inc/blocks/latest-post.php:351
+#: inc/blocks/latest-post.php:498
+#: inc/blocks/latest-post.php:514
+#: inc/blocks/latest-post.php:664
+#: inc/blocks/latest-post.php:680
+#: inc/blocks/latest-post.php:827
+#: inc/blocks/latest-post.php:843
+#: inc/blocks/post-query.php:317
+#: inc/blocks/post-query.php:332
+#: inc/blocks/post-query.php:480
+#: inc/blocks/post-query.php:494
+#: inc/blocks/post-query.php:642
+#: inc/blocks/post-query.php:657
+#: inc/blocks/post-query.php:805
+#: inc/blocks/post-query.php:820
+msgid ""
+"This content is password "
+"protected."
+msgstr ""
+
+#: inc/blocks/navbar.php:10
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/blocks/post-query.php:173
+msgid "(no title)"
+msgstr ""
+
+#: src/blocks/Column.js:160
+#, javascript-format
+msgid "%1$s (%2$d of %3$d)"
+msgstr ""
+
+#: src/blocks/Contact_Us.js:12
+msgid "Contact Us"
+msgstr ""
+
+#: src/blocks/Editor.js:143
+msgid "Add Dropcap"
+msgstr ""
+
+#: src/blocks/Editor.js:148
+#: src/blocks/Section.js:215
+msgid "Animation"
+msgstr ""
+
+#: src/blocks/Editor.js:156
+#: src/blocks/Section.js:223
+msgid "Durations"
+msgstr ""
+
+#: src/blocks/Editor.js:162
+#: src/blocks/Section.js:229
+msgid "Delay(ms)"
+msgstr ""
+
+#: src/blocks/Editor.js:169
+#: src/blocks/Section.js:237
+msgid "Visiblity"
+msgstr ""
+
+#: src/blocks/Editor.js:171
+#: src/blocks/Section.js:239
+msgid "Desktop"
+msgstr ""
+
+#: src/blocks/Editor.js:176
+#: src/blocks/Section.js:244
+msgid "Tablet"
+msgstr ""
+
+#: src/blocks/Editor.js:181
+#: src/blocks/Section.js:249
+msgid "Mobile"
+msgstr ""
+
+#: src/blocks/Editor.js:194
+msgid "Color"
+msgstr ""
+
+#: src/blocks/Editor.js:213
+#: src/blocks/Editor.js:289
+msgid "Title"
+msgstr ""
+
+#: src/blocks/Editor.js:218
+#: src/blocks/Editor.js:294
+msgid "Text"
+msgstr ""
+
+#: src/blocks/Editor.js:227
+#: src/blocks/Editor.js:237
+#: src/blocks/Editor.js:273
+#: src/blocks/Editor.js:303
+#: src/blocks/Editor.js:313
+#: src/blocks/Editor.js:349
+msgid "Background"
+msgstr ""
+
+#: src/blocks/Editor.js:249
+#: src/blocks/Editor.js:254
+#: src/blocks/Editor.js:325
+#: src/blocks/Editor.js:330
+#: src/blocks/Editor.js:872
+msgid "Dropcap"
+msgstr ""
+
+#: src/blocks/Editor.js:263
+#: src/blocks/Editor.js:339
+msgid "Dropcap Background"
+msgstr ""
+
+#: src/blocks/Editor.js:362
+msgid "Spacing"
+msgstr ""
+
+#: src/blocks/Editor.js:371
+#: src/blocks/Editor.js:394
+#: src/blocks/Editor.js:417
+msgid "Margin"
+msgstr ""
+
+#: src/blocks/Editor.js:446
+#: src/blocks/Editor.js:467
+#: src/blocks/Editor.js:488
+msgid "Padding"
+msgstr ""
+
+#: src/blocks/Editor.js:515
+#: src/blocks/Editor.js:538
+#: src/blocks/Editor.js:561
+msgid "Dropcap Margin"
+msgstr ""
+
+#: src/blocks/Editor.js:590
+#: src/blocks/Editor.js:611
+#: src/blocks/Editor.js:632
+msgid "Dropcap Padding"
+msgstr ""
+
+#: src/blocks/Editor.js:653
+#: src/blocks/Editor.js:656
+msgid "Border"
+msgstr ""
+
+#: src/blocks/Editor.js:661
+msgid "Border Radius"
+msgstr ""
+
+#: src/blocks/Editor.js:672
+msgid "Dropcap Border"
+msgstr ""
+
+#: src/blocks/Editor.js:677
+msgid ""
+"Dropcap Border Radius"
+msgstr ""
+
+#: src/blocks/Editor.js:689
+msgid "Advance ID"
+msgstr ""
+
+#: src/blocks/Editor.js:695
+msgid "Advance Class"
+msgstr ""
+
+#: src/blocks/Editor.js:720
+msgid "Content"
+msgstr ""
+
+#: src/blocks/Editor.js:722
+#: src/blocks/Editor.js:874
+msgid " Font Family"
+msgstr ""
+
+#: src/blocks/Editor.js:736
+#: src/blocks/Editor.js:748
+#: src/blocks/Editor.js:760
+msgid " Font Size"
+msgstr ""
+
+#: src/blocks/Editor.js:772
+#: src/blocks/Editor.js:923
+msgid "Font Weight"
+msgstr ""
+
+#: src/blocks/Editor.js:788
+#: src/blocks/Editor.js:798
+#: src/blocks/Editor.js:808
+#: src/blocks/Editor.js:938
+#: src/blocks/Editor.js:948
+#: src/blocks/Editor.js:958
+msgid "line Height(px)"
+msgstr ""
+
+#: src/blocks/Editor.js:818
+#: src/blocks/Editor.js:967
+msgid "Transform"
+msgstr ""
+
+#: src/blocks/Editor.js:834
+#: src/blocks/Editor.js:844
+#: src/blocks/Editor.js:854
+#: src/blocks/Editor.js:982
+#: src/blocks/Editor.js:992
+#: src/blocks/Editor.js:1002
+msgid "Letter Spacing"
+msgstr ""
+
+#: src/blocks/Editor.js:864
+#: src/blocks/Editor.js:1011
+msgid "Decoration "
+msgstr ""
+
+#: src/blocks/Editor.js:888
+#: src/blocks/Editor.js:900
+#: src/blocks/Editor.js:912
+msgid "Font Size"
+msgstr ""
+
+#: src/blocks/Image.js:95
+#: src/blocks/Image.js:109
+msgid "Background Color:"
+msgstr ""
+
+#: src/blocks/Image.js:101
+msgid "Caption Text Color:"
+msgstr ""
+
+#: src/blocks/Latest_Post.js:164
+#: src/blocks/Post_Query.js:499
+msgid ""
+"Links are disabled in "
+"the editor."
+msgstr ""
+
+#: src/blocks/Post_Query.js:4306
+msgid "Post Query"
+msgstr ""
+
+#: src/blocks/Section.js:104
+#: src/blocks/Section.js:128
+#: src/blocks/Section.js:138
+#: src/blocks/Section.js:148
+msgid "Container Width"
+msgstr ""
+
+#: src/blocks/Section.js:109
+msgid "Container"
+msgstr ""
+
+#: src/blocks/Section.js:114
+msgid "Container Fluid"
+msgstr ""
+
+#: src/blocks/Section.js:160
+msgid "Columns"
+msgstr ""
+
+#: src/blocks/Section.js:166
+msgid "Min Height"
+msgstr ""
+
+#: src/blocks/Section.js:179
+#: src/blocks/Section.js:189
+#: src/blocks/Section.js:199
+msgid "Columns Gap"
+msgstr ""
+
+#: src/blocks/Section.js:209
+msgid ""
+"This column count "
+"exceeds the recommended "
+"amount and may cause "
+"visual breakage."
+msgstr ""
+
+#: src/blocks/lib/typography.js:3
+msgid "Thin"
+msgstr ""
+
+#: src/blocks/lib/typography.js:4
+msgid "Extra Light"
+msgstr ""
+
+#: src/blocks/lib/typography.js:5
+msgid "Light"
+msgstr ""
+
+#: src/blocks/lib/typography.js:6
+msgid "Regular"
+msgstr ""
+
+#: src/blocks/lib/typography.js:7
+msgid "Medium"
+msgstr ""
+
+#: src/blocks/lib/typography.js:8
+msgid "Semi Bold"
+msgstr ""
+
+#: src/blocks/lib/typography.js:9
+msgid "Bold"
+msgstr ""
+
+#: src/blocks/lib/typography.js:10
+msgid "Extra Bold"
+msgstr ""
+
+#: src/blocks/lib/typography.js:11
+msgid "Black"
+msgstr ""
+
+#: src/blocks/lib/typography.js:15
+#: src/blocks/lib/typography.js:22
+msgid "Default"
+msgstr ""
+
+#: src/blocks/lib/typography.js:16
+msgid "Underline"
+msgstr ""
+
+#: src/blocks/lib/typography.js:17
+msgid "Overline"
+msgstr ""
+
+#: src/blocks/lib/typography.js:18
+msgid "Line Through"
+msgstr ""
+
+#: src/blocks/lib/typography.js:23
+msgid "Uppercase"
+msgstr ""
+
+#: src/blocks/lib/typography.js:24
+msgid "Lowercase"
+msgstr ""
+
+#: src/blocks/lib/typography.js:25
+msgid "Capitalize"
+msgstr ""
+
+#: src/blocks/lib/variations.js:17
+msgid "100"
+msgstr ""
+
+#: src/blocks/lib/variations.js:18
+msgid "One column"
+msgstr ""
+
+#: src/blocks/lib/variations.js:38
+msgid "50 / 50"
+msgstr ""
+
+#: src/blocks/lib/variations.js:39
+msgid ""
+"Two columns; equal split"
+msgstr ""
+
+#: src/blocks/lib/variations.js:60
+msgid "33 / 66"
+msgstr ""
+
+#: src/blocks/lib/variations.js:61
+msgid ""
+"Two columns; one-third, "
+"two-thirds split"
+msgstr ""
+
+#: src/blocks/lib/variations.js:84
+msgid "66 / 33"
+msgstr ""
+
+#: src/blocks/lib/variations.js:85
+msgid ""
+"Two columns; two-thirds, "
+"one-third split"
+msgstr ""
+
+#: src/blocks/lib/variations.js:108
+msgid "33 / 33 / 33"
+msgstr ""
+
+#: src/blocks/lib/variations.js:109
+msgid ""
+"Three columns; equal "
+"split"
+msgstr ""
+
+#: src/blocks/lib/variations.js:132
+msgid "25 / 50 / 25"
+msgstr ""
+
+#: src/blocks/lib/variations.js:133
+msgid ""
+"Three columns; wide "
+"center column"
+msgstr ""
