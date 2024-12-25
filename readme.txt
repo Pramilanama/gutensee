@@ -2,9 +2,9 @@
 Contributors: Premila
 Donate link: 
 Tags: gutenberg, FSE, block, widget, Gutensee
-Requires at least: 4.0
-Tested up to: 6.7
-Stable tag: 1.0.2
+Requires at least: 5.3
+Tested up to: 6.7.1
+Stable tag: 1.0.4
 Requires PHP: 5.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -14,6 +14,13 @@ Gutensee is a Gutenberg base block plugin that helps to build a beautiful block 
 == Description ==
 
 Gutensee is a Gutenberg base block plugin that helps to build a beautiful block websites. This plugin provids various indiviual blocks with flexible settings that helps to design our desirable websites. This plugin reduce addittional functionality to our theme. 
+
+== Source Code ==
+
+You can access the full source code for this plugin on GitHub:
+
+[View the source code on GitHub](https://github.com/Pramilanama/gutensee)
+
 
 == Demo ==
 Create template in easy way with Gutensee.
@@ -39,6 +46,12 @@ This plugin provides block that is use as website tool. It is use on page, post 
 
 
 == Changelog ==
+
+@Version 1.0.4
+* Fixed reviewer issues.
+
+@Version 1.0.3
+* Fixed reviewer issues.
 
 @Version 1.0.2
 * fixed some minor issues.
