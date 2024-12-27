@@ -2,8 +2,8 @@
 /**
 * Plugin Name:          Gutensee
 * Plugin URI:
-* Description:          Gutensee Plugin
-* Version:              1.0.4
+* Description:          Gutensee is a Gutenberg base block plugin that helps to build a beautiful block websites.
+* Version:              1.0.5
 * Requires at least:    5.3
 * Requires PHP:         5.4
 * Tested up to:         6.7.1
