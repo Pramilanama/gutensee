@@ -4,7 +4,7 @@ Donate link:
 Tags: gutenberg, FSE, block, widget, Gutensee
 Requires at least: 5.3
 Tested up to: 6.7.1
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 Requires PHP: 5.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -46,6 +46,9 @@ This plugin provides block that is use as website tool. It is use on page, post 
 
 
 == Changelog ==
+
+@Version 1.0.7
+* Fixed reviewer issues.
 
 @Version 1.0.6
 * Fixed reviewer issues.
