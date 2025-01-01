@@ -7,7 +7,16 @@ function gutensee_render_breadcrumbs_callback($attributes) {
     $displaymobile=($attributes['hidemobile'] != true)   ? 'hide-mobile' : '';
     $displayclass=$displaydesktop.' '.$displaytablet.' '.$displaymobile;
     $animationclass='wow animated '.$attributes['durations'].' '.$attributes['animation'];
-
+    $allowed_tags = array(
+        'script' => array(
+            'type' => true,
+            'src' => true,
+        ),
+        'style' => array(
+            'type' => true,
+            'src' => true,
+        ),
+    );
     $bordertop=(!empty($attributes['border']['top'])) ? $attributes['border']['top']['width'].' '. $attributes['border']['top']['style'].' '. $attributes['border']['top']['color'] : null;
     $borderright=(!empty($attributes['border']['right'])) ? $attributes['border']['right']['width'].' '. $attributes['border']['right']['style'].' '. $attributes['border']['right']['color'] : null;
     $borderbottom=(!empty($attributes['border']['bottom'])) ? $attributes['border']['bottom']['width'].' '. $attributes['border']['bottom']['style'].' '. $attributes['border']['bottom']['color'] : null;
@@ -17,11 +26,12 @@ function gutensee_render_breadcrumbs_callback($attributes) {
     $borderstyle=(!empty($attributes['border']['style']))? $attributes['border']['style'] :null;
     $bordercolor=(!empty($attributes['border']['color']))? $attributes['border']['color'] :null;
 
-    $output =$attributes['addcss'];
-    $heading_level = isset($attributes['headingLevel']) ? $attributes['headingLevel'] : 'h2';
-    $output .= '<div id="'.$attributes['advid'].'"><div id="'.$uniqueid.'" class="gutensee-breadcrumb '.$displayclass.' '.$animationclass.' '.$attributes['advclass'].'">';
+    $output =wp_kses($attributes['addcss'], $allowed_tags);
+    $valid_heading_levels = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+    $heading_level = in_array($attributes['headingLevel'], $valid_heading_levels) ? $attributes['headingLevel'] : 'h2';
+    $output .= '<div id="'.esc_attr($attributes['advid']).'"><div id="'.esc_attr($uniqueid).'" class="gutensee-breadcrumb '.esc_attr($displayclass).' '.esc_attr($animationclass).' '.esc_attr($attributes['advclass']).'">';
     // Initialize the output with the current page title or other relevant titles
-    $output .= '<' . $heading_level . '>';
+    $output .= '<' . esc_attr($heading_level) . '>';
 
     if (is_search()) {
         // Show search query for search results page
@@ -39,20 +49,20 @@ function gutensee_render_breadcrumbs_callback($attributes) {
         } elseif (is_date()) {
             $output .= get_the_date();
         } elseif (is_post_type_archive()) {
-            $output .= post_type_archive_title('', false);
+            $output .= esc_html(post_type_archive_title('', false));
         }
     } else {
         // Default title for other types of pages
         $output .= get_the_title();
     }
 
-    $output .= '</' . $heading_level . '>';
+    $output .= '</' . esc_attr($heading_level) . '>';
     $output .= '<div>';
     // Start breadcrumbs with Home link
     $output .= '<nav class="breadcrumbs">';
     $homeicon=($attributes['enableicon']==true)? '<i class="fa-solid fa-house"></i>' : '';
     $home=($attributes['enablehomebreadcumb']==true)? 'Home' : '';
-    $output .= '<a class="breadcrumbs-icon" href="' . home_url() . '">'.$homeicon.'</a>';
+    $output .= '<a class="breadcrumbs-icon" href="' . home_url() . '">'.wp_kses_post($homeicon).'</a>';
     $output .= '<a href="' . home_url() . '">'.$home.'</a>';
 
     if (!empty($attributes['separator'])) {
@@ -120,7 +130,7 @@ function gutensee_render_breadcrumbs_callback($attributes) {
     $output .= '</nav>';
 
     $output .= '</div>';
-    $output .= '</div></div>';
-    $output .=$attributes['addjs'];
+    $output .= '</div></div>';    
+    $output .= wp_kses($attributes['addjs'], $allowed_tags);
     return $output;
 }
